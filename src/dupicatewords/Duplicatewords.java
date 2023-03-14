@@ -2,13 +2,16 @@ package dupicatewords;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Duplicatewords {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s="I love lOve To tO to i cOde Code";
-		
+		String s="";
+		Scanner sc=new Scanner(System.in);
+		s=sc.nextLine();
+		sc.close();
 		String str=duplicate(s);
 		System.out.println(str);
 	}
